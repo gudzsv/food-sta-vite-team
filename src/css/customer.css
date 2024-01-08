@@ -38,7 +38,9 @@
      
     }
     .customers-card{
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 501px;
       height: 232px;
       border-radius: 0px 30px 30px 30px;
@@ -51,22 +53,26 @@
     
     .stars{
     padding-bottom: 29px;
+
     }
     .avatar {
     display: flex;
+    margin-top: 45px;
     }
     .avatar-content{
+      display: block;
       padding-left: 16px;
-      gap: 2px;
+      padding-right: 14px;
     }
     .sumith{
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
+    padding-bottom: 2px;
     }
     .dude{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     }
-    
+
