@@ -1,0 +1,61 @@
+<section class="subscribe-section">
+  <div class="container subscribe-wrapper">
+    <div class="subscribe-image-wrapper">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="./img/desktop_banan@1x.jpg 1x, ./img/desktop_banan@2x.jpg 2x"
+          width="608"
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="./img/tablet_banan@1x.jpg 1x, ./img/tablet_banan@2x.jpg 2x"
+          width="281"
+        />
+
+        <source
+          media="(max-width: 767px)"
+          srcset="./img/mobile_banan@1x.jpg 1x, ./img/mobile_banan@2x.jpg 2x"
+          width="280"
+        />
+        <img
+          class="subscribe-img"
+          src="./img/banan.png"
+          alt="banan"
+          width="608"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="subscribe-content">
+      <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+      <p class="subscribe-text">
+        Order now and receive 10% off your first meal with Enjoy Your Favorite
+        Food From Anywhere.
+      </p>
+      <form class="mail-form" name="email">
+        <label class="label-form">
+          <input
+            class="subscribe-input"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </label>
+        <div class="mail-error is-active">
+          <span class="error-icon">
+            <svg class="icon-Frame" width="12" height="12">
+              <use href="./img/icons.svg#icon-Frame"></use>
+            </svg>
+          </span>
+          <p class="error-text">
+            Not a valid email address (example@email.com)
+          </p>
+        </div>
+
+        <button class="subscribe-btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
