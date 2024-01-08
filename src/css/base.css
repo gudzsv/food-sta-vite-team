@@ -3,6 +3,38 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+
+address {
+  font-style: normal;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: overflow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .container {
   max-width: 320px;
   padding: 0 16px;
