@@ -2,6 +2,7 @@ body {
   color: #2c2c2c;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-style: normal;
 }
 
 address {
@@ -9,15 +10,33 @@ address {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  h2 {
+    line-height: 1.2;
+  }
 }
 
 h3 {
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 1280px) {
+  h3 {
+    line-height: 1.4;
+  }
 }
 
 .visually-hidden {

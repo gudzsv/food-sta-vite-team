@@ -1,61 +1,190 @@
 .offerings {
-  background-color: #ffe550;
-  margin-bottom: 120px;
+  background-color: #fefefe;
 }
 
-.container-offerings {
+@media only screen and (min-width: 1280px) {
+  .offerings {
+    background-color: #ffe550;
+    margin-bottom: 60px;
+  }
+}
+
+.container.container-offerings {
   display: flex;
-  gap: 90px;
-  padding: 167px 51px 124px 16px;
+  flex-direction: column;
+  gap: 60px;
+  padding: 45px 20px 66px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container.container-offerings {
+    padding: 21px 116px 94px 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container.container-offerings {
+    flex-direction: row;
+    gap: 90px;
+    padding: 167px 51px 124px 16px;
+  }
 }
 
 .offer-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 550px;
-  height: 550px;
+  width: 280px;
+  height: 280px;
   flex-shrink: 0;
-  border-radius: 550px;
-  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 280px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+  .offer-img {
+    width: 357px;
+    height: 357px;
+    border-radius: 357px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .offer-img {
+    width: 550px;
+    height: 550px;
+    border-radius: 550px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+  }
 }
 
 .offer-img-bg {
   position: relative;
-  width: 502px;
-  height: 502px;
+  width: 256px;
+  height: 256px;
   flex-shrink: 0;
-  border-radius: 502px;
   background-color: #fefefe;
+  padding: 185px 60px 26px 67px;
+}
+
+@media only screen and (min-width: 768px) {
+  .offer-img-bg {
+    width: 326px;
+    height: 326px;
+    border-radius: 326px;
+    padding: 236px 77px 33px 85px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .offer-img-bg {
+    width: 502px;
+    height: 502px;
+    border-radius: 502px;
+    padding: 364px 119px 51px 131px;
+  }
 }
 
 .offer-img-apple {
   position: absolute;
-  left: 60px;
-  top: -78px;
+  left: 30px;
+  top: -41px;
+}
+@media only screen and (min-width: 768px) {
+  .offer-img-apple {
+    left: 38px;
+    top: -53px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .offer-img-apple {
+    left: 60px;
+    top: -78px;
+  }
 }
 
 .offer-content {
-  padding-top: 29px;
+  max-width: 280px;
+}
+@media only screen and (min-width: 768px) {
+  .offer-content {
+    max-width: 620px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .offer-content {
+    max-width: 573px;
+    padding-top: 29px;
+  }
 }
 
 .offer-title {
-  margin-bottom: 20px;
+  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .offer-title {
+    margin-bottom: 20px;
+  }
 }
 
 .offer-text {
-  width: 500px;
-  margin-bottom: 40px;
+  width: 280px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .offer-text {
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .offer-text {
+    margin-bottom: 40px;
+  }
 }
 
 .offer-all-items {
   display: flex;
-  gap: 67px;
-  margin-bottom: 32px;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 280;
+  margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .offer-all-items {
+    flex-direction: row;
+    gap: 80px;
+    max-width: 620px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .offer-all-items {
+    gap: 67px;
+    max-width: 573px;
+    margin-bottom: 32px;
+  }
 }
 
 .offer-item {
-  flex-basis: calc((100% - 67px) / 2);
+}
+
+@media only screen and (min-width: 768px) {
+  .offer-item {
+    flex-basis: calc((100% - 80px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .offer-item {
+    flex-basis: calc((100% - 67px) / 2);
+  }
 }
 
 .offer-icon-bg {
@@ -69,15 +198,19 @@
   margin-bottom: 8px;
 }
 
-/* .offer-icon {
-} */
-
 .offer-item-title {
   margin-bottom: 16px;
 }
 
 .offer-item-text {
   font-size: 14px;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width: 1280px) {
+  .offer-item-text {
+    line-height: 1.5;
+  }
 }
 
 .offer-btn {

@@ -2,13 +2,66 @@
   <div class="container container-offerings">
     <div class="offer-img">
       <span class="offer-img-bg">
-        <img
-          class="offer-img-apple"
-          src="./img/apple.png"
-          alt="Big green apple"
-          width="396"
-          height="502"
-        />
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/offering/shadow_desc@1x.png 1x,
+              ./img/offering/shadow_desc@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/offering/shadow_tablet@1x.png 1x,
+              ./img/offering/shadow_tablet@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/offering/shadow_mobile@1x.png 1x,
+              ./img/offering/shadow_mobile@2x.png 2x
+            "
+          />
+          <img
+            class="shadow-apple"
+            src="./img/offering/shadow_desc@1x.png"
+            alt="shadow with apple"
+            max-width="252"
+            max-height="87"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/offering/aple_desctop@1x.png 1x,
+              ./img/offering/aple_desctop@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/offering/aple_tablet@1x.png 1x,
+              ./img/offering/aple_tablet@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/offering/aple_mobile@1x.png 1x,
+              ./img/offering/aple_mobile@2x.png 2x
+            "
+          />
+          <img
+            class="offer-img-apple"
+            src="./img/apple.png"
+            alt="Big green apple"
+            max-width="396"
+            max-height="502"
+          />
+        </picture>
       </span>
     </div>
     <div class="offer-content">
