@@ -1,16 +1,16 @@
-<svg width="156" height="72" viewBox="0 0 156 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Ellipse 4" filter="url(#filter0_f_480_5955)">
-<ellipse cx="78.0546" cy="35.6909" rx="64.1455" ry="22.1455" fill="url(#paint0_radial_480_5955)"/>
-</g>
-<defs>
-<filter id="filter0_f_480_5955" x="0.672814" y="0.309045" width="154.764" height="70.7636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="6.61818" result="effect1_foregroundBlur_480_5955"/>
-</filter>
-<radialGradient id="paint0_radial_480_5955" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(78.0546 35.6909) rotate(90) scale(22.1455 64.1455)">
-<stop stop-color="#2F583F"/>
-<stop offset="1" stop-color="#696969" stop-opacity="0"/>
-</radialGradient>
-</defs>
+<svg  width="156" height="72" viewBox="0 0 156 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Ellipse-4" filter="url(#filter0_f_480_5955)">
+        <ellipse cx="78.0546" cy="35.6909" rx="64.1455" ry="22.1455" fill="url(#paint0_radial_480_5955)"/>
+    </g>
+    <defs>
+        <filter id="filter0_f_480_5955" x="0.672814" y="0.309045" width="154.764" height="70.7636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feGaussianBlur stdDeviation="6.61818" result="effect1_foregroundBlur_480_5955"/>
+        </filter>
+        <radialGradient id="paint0_radial_480_5955" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(78.0546 35.6909) rotate(90) scale(22.1455 64.1455)">
+        <stop stop-color="#2F583F"/>
+        <stop offset="1" stop-color="#696969" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
 </svg>
