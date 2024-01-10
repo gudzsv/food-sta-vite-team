@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/food-sta-vite-team/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/food-sta-vite-team/assets/index-c921706c.css">
+    <link rel="stylesheet" href="/food-sta-vite-team/assets/index-c56452b1.css">
   </head>
   <body>
     <header class="header">
@@ -120,13 +120,48 @@
   <div class="container container-offerings">
     <div class="offer-img">
       <span class="offer-img-bg">
-        <img
-          class="offer-img-apple"
-          src="/food-sta-vite-team/assets/apple-b0cc2bcc.png"
-          alt="Big green apple"
-          width="396"
-          height="502"
-        />
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/food-sta-vite-team/assets/shadow_desc@1x-40477184.png 1x, /food-sta-vite-team/assets/shadow_desc@2x-d09dffed.png 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/food-sta-vite-team/assets/shadow_tablet@1x-b2ae2fe9.png 1x, /food-sta-vite-team/assets/shadow_tablet@2x-52d78a44.png 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/food-sta-vite-team/assets/shadow_mobile@1x-49c711c3.png 1x, /food-sta-vite-team/assets/shadow_mobile@2x-e1b2f640.png 2x"
+          />
+          <img
+            class="shadow-apple"
+            src="/food-sta-vite-team/assets/shadow_desc@1x-40477184.png"
+            alt="shadow with apple"
+            max-width="252"
+            max-height="87"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/food-sta-vite-team/assets/aple_desctop@1x-b0cc2bcc.png 1x, /food-sta-vite-team/assets/aple_desctop@2x-496da3f3.png 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/food-sta-vite-team/assets/aple_tablet@1x-2ab8195a.png 1x, /food-sta-vite-team/assets/aple_tablet@2x-07d8692b.png 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/food-sta-vite-team/assets/aple_mobile@1x-7c083594.png 1x, /food-sta-vite-team/assets/aple_mobile@2x-c40aeba2.png 2x"
+          />
+          <img
+            class="offer-img-apple"
+            src="/food-sta-vite-team/assets/aple_desctop@1x-b0cc2bcc.png"
+            alt="Big green apple"
+            max-width="396"
+            max-height="502"
+          />
+        </picture>
       </span>
     </div>
     <div class="offer-content">
